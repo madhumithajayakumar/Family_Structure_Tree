@@ -264,11 +264,6 @@ form.sign-up-form {
 .container.sign-up-mode .signin-signup {
     left: 25%;
 }
-
-.container.sign-up-mode .signup-signup{
-    right: 25%;
-}
-
 .container.sign-up-mode form.sign-in-form {
     z-index: 1;
     opacity: 0;

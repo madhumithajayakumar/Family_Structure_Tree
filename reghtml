@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title></title>
+      <link a href="style.css" rel="stylesheet" type="text/css">
+      </head>
+    <body>
+     <div class="regform"><h1> REGISTRATION FORM!!</h1></div>
+     <div class="mane">
+        <form>
+         <div id="name">
+            <h2 class="name">Name</h2>
+             <input class="firstname" type="text" name="first_name"><br>
+             <label class="firstlabel">First name</label>
+             <input class="lastname" type="text" name="last_name">
+             <label class="lastlabel">Last name</label>
+            </div>
+            
+            <h2 class="name">Company</h2>
+            <input class="company" type="text" name="company">
+
+            <h2 class="name">Email</h2>
+            <input class="Email" type="text" name="Email">
+            
+            <h2 class="name">Phone</h2>
+            <input class="number" type="text" name="phone">
+            <label class="Phone-number">Phone Number</label>
+        
+            
+            <h2 id="Student">Are You Ready??</h2>
+        
+            
+            <label>
+            <input class="radio-one" type="radio" checked="checked" name=" ">
+            <span class="checkmark"></span>
+                No
+            </label>
+                <label>
+                 <input class="radio-two" type="radio" checked="checked" name=" ">
+                 <span class="checkmark"></span>
+                 Yes
+                </label>
+            
+            <button type="submit">Register</button>
+            </form>
+        </div>
+    </body>
+</html>
